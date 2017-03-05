@@ -1,0 +1,247 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/gamebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Cap Strike " />
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="瓶盖大作战" />
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Skywalkers Presents." />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+             android:layout_marginRight="10dp"
+            android:text="出品人：杨子江、符晓洋" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="版本：1.1.1" />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+             android:layout_marginRight="10dp"
+            android:text="游戏说明：" />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            android:text="1、游戏概述：" />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="    Cap Strike 是一款休闲小游戏，在游戏中玩家需要操作一个装满饮料的瓶子，通过射击瓶盖来抵御蟑螂的入侵，通过消灭所有的蟑螂来取得游戏胜利，若蟑螂入侵至玩家领地，则游戏失败。" />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            android:text="2、操作方法：" />
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="    摇晃手机，当手机摇晃程度达到一定限度便发射瓶盖，瓶盖的射程随着摇晃的剧烈而增加。蟑螂被击中后会损失生命值，生命值耗尽便会死亡。蟑螂死亡时有几率掉落独特的道具，掉落的道具会在地上停留一段时间便消失，玩家点击地上的道具后道具便被移至屏幕下方的道具槽中。道具槽中的道具在点击后便会释放，不同的道具会有不同的效果，玩家合理使用会使其发挥更大的作用。道具在每关结束后就会消失，所以玩家要及时使用拥有的道具。" />
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="3、道具说明：" />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/missle"/>
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="巨型炸弹：发射一枚巨大的炸弹袭击前方的敌人，对前方圆形区域内的敌人造成伤害。" />
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/continuous"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="连续射击：自动连续发射10发最远射程的子弹，攻击前方的的敌人。" />
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/slowdown"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="减速：降低所有敌人60%的移动速度，持续10秒。" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/laserprop"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="激光射击：瞬间发射一道强力的激光，攻击前方一条直线上的所有敌人。" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pushback"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="冲击波：发射一道虚幻的冲击波，使所有敌人后退一段距离。" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fireball"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="火焰打击：发射9颗炙热的火球，攻击前方的敌人。" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/frostnova"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="5dp"
+            android:text="霜冻新星：释放极冷的寒冰，在10秒内冻结所有敌人。" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/lightning_strike"/>
+         <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="10dp"
+            android:text="五雷轰顶：释放可怕的巨型闪电，攻击所有的敌人。" />
+         
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+             android:layout_marginRight="10dp"
+            android:text="版权声明：" />
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+             android:layout_marginRight="10dp"
+            android:text="    本作品部分图片及音效资源来自互联网，其他内容均为作者原创，依法享有版权。未经作者允许请勿私自将本作品用于商业用途，违者将追究法律责任。" />
+        
+    </LinearLayout>
+
+</ScrollView>

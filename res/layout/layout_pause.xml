@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00000000" >
+    
+    <ImageButton
+            android:id="@+id/pause_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background0"
+            android:src="@drawable/pausemenu_continue" />
+
+        <ImageButton
+            android:id="@+id/pause_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background0"
+            android:src="@drawable/pausemenu_restart" />
+
+        <ImageButton
+            android:id="@+id/pause_return_main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background0"
+            android:src="@drawable/pausemenu_return_main_menu" />
+
+        <ImageButton
+            android:id="@+id/pause_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background0"
+            android:src="@drawable/pausemenu_exit" /> 
+
+</LinearLayout>

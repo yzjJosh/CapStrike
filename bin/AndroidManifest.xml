@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="josh.game.capstrike"
+    android:versionCode="3"
+    android:versionName="1.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CapStrikeMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GamePlayActivity"
+            android:label="@string/title_activity_stage"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name="josh.game.capstrike.chooseStage"
+            android:label="@string/title_activity_choose_stage"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yzj.josh.tabView" />
+        </activity>
+        <activity
+            android:name=".aboutGame"
+            android:label="@string/title_activity_about_game" 
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yzj.josh.tabView" />
+        </activity>
+    </application>
+
+</manifest>

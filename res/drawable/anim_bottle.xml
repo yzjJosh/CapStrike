@@ -1,0 +1,22 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:oneshot="false">
+ 
+
+<item android:drawable="@drawable/bottle0" 
+    android:duration="200" /> 
+
+<item android:drawable="@drawable/bottle1"
+android:duration="200" />
+
+<item android:drawable="@drawable/bottle2"
+android:duration="200" />
+
+<item android:drawable="@drawable/bottle3" 
+android:duration="200" />
+
+<item android:drawable="@drawable/bottle4"
+android:duration="200" />
+
+
+
+</animation-list>

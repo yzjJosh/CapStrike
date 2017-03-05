@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#00000000"
+    android:gravity="center">
+    
+    <ImageView
+            android:id="@+id/win_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lose_character" />
+
+                  
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/lose_to_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/small_background0"
+                android:src="@drawable/icon_to_menu" />
+
+            <ImageButton
+                android:id="@+id/lose_restart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/small_background0"
+                android:src="@drawable/icon_restart" />
+            
+             <ImageButton
+                android:id="@+id/lose_next_stage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/small_background0"
+                android:src="@drawable/icon_next_stage"
+                android:visibility="gone" />
+            
+            <ImageButton
+                android:id="@+id/lose_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/small_background0"
+                android:src="@drawable/icon_exit" />
+            
+          </LinearLayout>
+
+</LinearLayout>

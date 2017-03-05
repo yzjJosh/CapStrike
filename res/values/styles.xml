@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
+    
+    
+ <style name="theme_pause" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+         <item name="android:windowFullscreen">true</item> 
+    </style>
+    
+ <style name="Dialog_Fullscreen" > 
+       <item name="android:windowFullscreen">true</item> 
+       <item name="android:windowNoTitle">true</item>  
+       <item name="android:windowBackground">@color/half_transparent</item>
+    </style>  
+ 
+     
+ <color name="transparent">#00000000</color>
+ <color name="half_transparent">#90000000</color>
+ <color name="white">#FFFFFF</color>
+    
+
+</resources>

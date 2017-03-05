@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gamebackground" 
+    android:gravity="center">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/stage1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:gravity="center">           
+
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/stage2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/stage3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/stage4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+        </LinearLayout>
+
+       
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_below="@+id/tableRow1"
+        android:layout_marginTop="30dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/stage5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:gravity="center">
+        </LinearLayout>
+
+      
+        <LinearLayout
+            android:id="@+id/stage6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/stage7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginTop="30dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/stage9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+        </LinearLayout>
+
+       <LinearLayout
+            android:id="@+id/stage10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_below="@+id/tableRow3"
+        android:layout_marginTop="30dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/stage13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage15"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp" 
+            android:gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stage16"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center" >
+        </LinearLayout>
+    </TableRow>
+</RelativeLayout>
